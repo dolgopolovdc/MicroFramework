@@ -1,5 +1,4 @@
 <h2>Новая новость</h2> 
-</form>
 <form action="/news/create/" method="post">
     <p>
     	<label for="title">Название</label>

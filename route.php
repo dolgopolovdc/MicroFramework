@@ -44,7 +44,7 @@ class Route
       {
         Route::ErrorPage404();
       }
-
+      
       // выполняем акшин 
       $controller = new $controller_name;
       $action = $action_name;

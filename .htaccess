@@ -9,3 +9,6 @@ Options +FollowSymLinks +ExecCGI
 
   RewriteRule ^(.*)$ index.php [QSA,L]
 </IfModule>
+
+php_flag display_errors on
+php_flag display_startup_errors on
